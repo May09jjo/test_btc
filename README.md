@@ -7,7 +7,7 @@ Repositorio de pruebas de reclutamiento de BlueTide Web Consulting
 ### Instrucciones:
 
 - [Iniciar sesión](https://github.com/login) o [registrarse](https://github.com/join?source=login) en la plataforma GitHub.
-- Hacer un fork en su cuenta de este repositorio en su cuenta de Github.
+- Hacer un fork de este repositorio en su cuenta de Github.
 - Clonar el repositorio (El **fork** público hecho en el paso anterior) en su computadora de desarrollo
 - Abrir el archivo index.html en un navegador web.
 - Realizar las tareas y cambios solicitados en la prueba.
