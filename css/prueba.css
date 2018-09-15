@@ -1,1 +1,167 @@
-/* En este archivo debe agregar las clases CSS que considere necesarias para la realización de las pruebas de páginas Estáticas */
+ En este archivo debe agregar las clases CSS que considere necesarias para la realización de las pruebas de páginas Estáticas */
+
+/* Services Section--------------------------------*/
+
+#services {
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background-size: cover;
+  padding: 30px 0 30px 0;
+}
+
+.title_prueba .section-title{
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 24px;
+}
+
+.title_prueba .section-title span{
+	color:  #1c82c3;
+	font-weight: bold;
+}
+
+
+#services .box{
+padding: 10px;
+}
+
+#services .service-icon {
+	background   : #1c82c3;
+	display: inline-block;
+	margin-bottom: 20px;
+	border-radius: 50%;
+	transition   : 0.5s;
+	border       : 1px solid #1c82c3;
+	width        : 120px;
+	height       : 120px;
+	text-align: center;
+}
+
+#services .service-icon i {
+	color      : #fff;
+	font-size  : 40px;
+	line-height: 120px;
+}
+
+#services .wrap-item:hover .service-icon {
+  background: #fff;
+}
+
+#services .wrap-item:hover .service-icon i {
+  color: #1c82c3;
+}
+
+#services .wrap-item h3{
+	font-size     : 20px;
+	line-height   : 25px;
+	text-transform: uppercase;
+}
+
+
+#services .wrap-item p {
+	font-size: 14px;
+}
+
+#services .wrap-item a.masinfo {
+	color     : #FFF;
+	font-size : 13px;
+	background:#8D8C8C;
+	padding   : 5px 8px;
+	text-decoration:none;
+}
+
+#services .wrap-item a.masinfo:hover{
+	background: #1c82c3;
+}
+
+#services .pad-bt15 {
+  padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #services .wrap-item p {
+	display: none;
+	}
+
+	 #services .wrap-item h3{
+		font-size: 0.75em;
+	}
+
+}
+
+/*Modal Iframe services*/
+
+.bmd-modalContent {
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.bmd-modalContent .close {
+  font-size: 30px;
+  line-height: 30px;
+  padding: 7px 4px 7px 13px;
+  text-shadow: none;
+  opacity: .7;
+  color:#fff;
+}
+
+.bmd-modalContent .close span {
+  display: block;
+}
+
+.bmd-modalContent .close:hover,
+.bmd-modalContent .close:focus {
+  opacity: 1;
+  outline: none;
+}
+
+.bmd-modalContent iframe {
+  display: block;
+  margin: 0 auto;
+}
+/*fin modal*/
+
+
+/*FORMULARIO*/
+
+form label{
+	color: #1c82c3;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+form textarea {
+	resize: none;
+}
+
+form .form-control{
+	background-color:#EBEAEA;
+}
+
+form div.btn_envio{
+	text-align: right;
+	margin-top: 10px;
+}
+
+form button.enviar{
+	background :#8D8C8C;
+	font-size: 13px;
+	color: #FFF;
+	padding: 2px 40px;
+	border-radius: 0px;
+}
+
+/*Alerta*/
+form .alert-success {
+	background: #328436;
+	color:#fff;
+	margin-top: 15px;
+}
+
+form .alert-danger {
+	background: #CE262A;
+	color:#fff;
+	margin-top: 15px;
+}
+
+/*FIN FORMULARIO*/
