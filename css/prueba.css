@@ -166,7 +166,7 @@ form .alert-danger {
 
 #pruebagit{
   background: blue;
-
+  box-shadow: 2px;
 }
 
 /*FIN FORMULARIO*/
